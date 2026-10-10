@@ -18,6 +18,7 @@ const rawOrders = [
     return prev + order.itemsTotal + order.deliveryFee
   }, 0)
 
+  console.log('pending order' , pemndingOrders)
   console.log(newItem)
   console.log('Due amount',dueAmmount)
 
