@@ -5,7 +5,7 @@ const rawOrders = [
   { id: "ORD_4", customer: "Tanvir", itemsTotal: 850, deliveryFee: 60, status: "cancelled" },
 ]
 
-
+// orders
   const pemndingOrders = rawOrders.filter(order => order.status === 'pending')
 
   const newItem = pemndingOrders.map(order => ({
